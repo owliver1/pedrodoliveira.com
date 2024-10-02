@@ -1,0 +1,47 @@
+* {
+    background-color: #1E1923;
+    color:  #dacbf1;
+    font-family: monospace;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid #dacbf1;
+    row-gap: 20px;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.row {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: max-content;
+    text-align: center;
+}
+
+.dot_grid {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(#dacbf1 2px, transparent 2px);
+    opacity: 0.2;
+    background-size: 32px 32px;
+    
+}
+
+#ft1 {
+    font-size: 150%;
+}
+
+#ft2 {
+    font-size: 150%;
+}
